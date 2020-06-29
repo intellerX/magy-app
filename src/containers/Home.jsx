@@ -5,7 +5,7 @@ import Categories from '../components/Categories';
 import Carousel from '../components/Carousel';
 import CarouselItem from '../components/CarouselItem';
 import '../assets/styles/components/Home.scss';
-import Image1 from '../assets/static/Image1.png'
+import Image1 from '../assets/static/Image11.jpg'
 
 import '../assets/styles/App.scss';
 

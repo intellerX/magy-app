@@ -26,8 +26,23 @@
 }
 
 .image1{
-    width: 1899px;
+    width: 90%;
     height: 560px;
     object-position: 50% 50%;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 600px) {
+    .login__container {
+      background-color: transparent;
+      border: none;
+      padding: 0px;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .footer {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
