@@ -23,7 +23,7 @@ const initialState = {
 			duration: 164,
 			cover: 'https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?cs=srgb&dl=adorable-alegria-chaval-chico-1148998.jpg&fm=jpg',
 			description: 'Vestibulum ac est lacinia nisi venenatis tristique',
-			source: 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+			source: 'https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1',
 		},
 		{
 			id: 3,
@@ -36,7 +36,7 @@ const initialState = {
 			duration: 137,
 			cover: 'https://images.pexels.com/photos/298825/pexels-photo-298825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
 			description: 'Vestibulum ac est lacinia nisi venenatis tristique',
-			source: 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+			source: 'https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1',
 		},
 		{
 			id: 4,
