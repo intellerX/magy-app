@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
+    "build": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects",
     "start": "webpack-dev-server --open --mode development "
   },
   "keywords": [],
