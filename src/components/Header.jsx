@@ -33,11 +33,11 @@ const Header = props => {
       
       
       <ul id="button" className="buttons">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Sobre nosotros</a></li>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/info">Sobre nosotros</a></li>
         <li><a href="#">Servicios</a></li>
         <li><a href="#">Pagos</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="/info">Contacto</a></li>
       </ul>
       
       <div className="header__menu">

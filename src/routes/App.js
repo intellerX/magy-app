@@ -6,6 +6,7 @@ import Register from '../containers/Register';
 import NotFound from '../containers/NotFound';
 import Layout from '../components/Layout';
 import Player from '../containers/Player';
+import Info from '../containers/Info';
 
 
 const App = () => (
@@ -17,6 +18,7 @@ const App = () => (
                 <Route exact path ="/login" component={Login}></Route>
                 <Route exact path ="/register" component={Register}></Route>
                 <Route exact path ="/player/:id" component={Player}></Route>
+                <Route exact path ="/info" component={Info}></Route>
                 <Route component={NotFound}></Route>
             </Switch>
         </Layout>  
