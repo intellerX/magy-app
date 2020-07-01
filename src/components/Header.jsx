@@ -36,7 +36,7 @@ const Header = props => {
         <li><a href="/">Inicio</a></li>
         <li><a href="/info">Sobre nosotros</a></li>
         <li><a href="/servicios">Servicios</a></li>
-        <li><a href="#">Pagos</a></li>
+        <li><a href="https://www.psepagos.co/PSEHostingUI/ShowTicketOffice.aspx?ID=8807">Pagos</a></li>
         <li><a href="/info">Contacto</a></li>
       </ul>
       
