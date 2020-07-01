@@ -24,9 +24,7 @@ const Info = () => {
                 <div className = "panel2">
                     <img className = "panel2__image" id="Image"   data-type="image"  src="https://images.pexels.com/photos/3662803/pexels-photo-3662803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
 
-                    <p className = "par">
-                        Creemos que los niños prosperan en un ambiente que valora su individualidad, y al mismo tiempo les brinda apoyo y oportunidades para crecer emocional, social y creativamente. Al desarrollar las fortalezas, intereses y la curiosidad de cada niño, los guiamos a explorar el mundo que los rodea, así como a desarrollar nuevas habilidades y formar relaciones estrechas.
-                    </p>
+                    
                 </div>
 				
 			</div>
