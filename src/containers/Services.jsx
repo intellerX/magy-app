@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import '../assets/styles/components/Services.scss';
+import ImgServicios from '../assets/static/ImagenServicios.jpg'
 const Services = () => {
 	return (
 		<div className = "Services">		
@@ -44,24 +45,40 @@ const Services = () => {
 				
 			</div>
 
-            <img className = "image__info" id="Image"   data-type="image"  src="https://images.pexels.com/photos/3408130/pexels-photo-3408130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+            <img className = "image__info" id="Image"   data-type="image"  src={ImgServicios}></img>
 
             <div className = "panel__info"> 
                 <div className = "panel1"> 
                     <h3>Servicio de lonchera</h3>           
 
-                    <p>
-                        ofrecemos una lonchera balanceada:proteina acompañada de Carbohidrato, fruta y jugo natural.
-                        Escuela para padres:
-                        un espacio especial en el que en cada período escolar con profecionales especializados se guiará a los padres en la maravillosa y privilegiada labor de educar.
+                    <p className = "parr">
+                        Ofrecemos una lonchera balanceada: proteina acompañada de Carbohidrato, fruta y jugo natural.  
                     </p>
                     
                 </div>
+
+                <div className = "panel2">
+                    <img className = "panel2__image" id="Image"   data-type="image"  src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+
+                    
+                </div>
+
+            
+                  
+            </div> 
+
+            <div className = "panel__info"> 
+                <div className = "panel2">
+                    <h3>Escuela para abuelos</h3> 
+                    <p className = "parr">En tiempos en los que toda la familia se ve involucrada en la educación de los niño, es necesario orientar a los abuelos que están apoyando a sus hijos en el cuidado de los nietos para que en su roll de abuelos, den el apoyo adecuado a su nietos.</p>
+                </div>
+                <div className = "panel1">
+                    <h3>Escuela para padres</h3> 
+                        <p className = "parr">un espacio especial en el que en cada período escolar con profecionales especializados se guiará a los padres en la maravillosa y privilegiada labor de educar.</p>
+                </div>
             </div>
-            <div className = "panel2">
-                <h3>Escuela para abuelos</h3> 
-                    <p>En tiempos en los que toda la familia se ve involucrada en la educación de los niño, es necesario orientar a los abuelos que están apoyando a sus hijos en el cuidado de los nietos para que en su roll de abuelos, den el apoyo adecuado a su nietos.</p>
-            </div>            			
+                      			
+
 		</div>
 	);
 };
