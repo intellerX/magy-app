@@ -52,7 +52,7 @@ const Services = () => {
                     <h3>Servicio de lonchera</h3>           
 
                     <p className = "parr">
-                        Ofrecemos una lonchera balanceada: proteina acompañada de Carbohidrato, fruta y jugo natural.  
+                        Ofrecemos una lonchera balanceada: proteína acompañada de Carbohidrato, fruta y jugo natural.  
                     </p>
                     
                 </div>
@@ -70,11 +70,11 @@ const Services = () => {
             <div className = "panel__info"> 
                 <div className = "panel2">
                     <h3>Escuela para abuelos</h3> 
-                    <p className = "parr">En tiempos en los que toda la familia se ve involucrada en la educación de los niño, es necesario orientar a los abuelos que están apoyando a sus hijos en el cuidado de los nietos para que en su roll de abuelos, den el apoyo adecuado a su nietos.</p>
+                    <p className = "parr">En tiempos en los que toda la familia se ve involucrada en la educación de los niños, es necesario orientar a los abuelos que están apoyando a sus hijos en el cuidado de los nietos para que en su rol de abuelos, den el apoyo adecuado a su nietos.</p>
                 </div>
                 <div className = "panel1">
                     <h3>Escuela para padres</h3> 
-                        <p className = "parr">un espacio especial en el que en cada período escolar con profecionales especializados se guiará a los padres en la maravillosa y privilegiada labor de educar.</p>
+                        <p className = "parr">un espacio especial en el que en cada período escolar con profesionales especializados se guiará a los padres en la maravillosa y privilegiada labor de educar.</p>
                 </div>
             </div>
                       			
