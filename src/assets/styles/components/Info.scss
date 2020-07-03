@@ -44,6 +44,7 @@
     width: 100%;
     margin: auto;
     overflow: hidden;
+    background-color: #e7f5ff ;
 }
 
 .slider ul{
@@ -64,9 +65,19 @@
     width: 100%;
 }
 
+.slider h4{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 .pict{
     width: 100%;
     margin-left: 0;
+    background-color: #e7f5ff ;
+}
+
+.pict h4{
+    margin: 0;
 }
 
 

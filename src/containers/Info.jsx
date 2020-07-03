@@ -60,11 +60,11 @@ const Info = () => {
                 </ul>
             </div>
 
-            <div  id = "Capacitacion">
+            <div className = "pict" id = "Capacitacion">
 
                 <h4>Periódicamente las maestras reciben capacitaciones para fortalecer sus conocimientos y habilidades .</h4>
                 <div>
-                    <img className = "pict" src={ImgCapacitacion} alt=""/>           
+                    <img  src={ImgCapacitacion} alt=""/>           
 
                 </div>
             </div>
