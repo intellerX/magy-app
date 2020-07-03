@@ -64,7 +64,7 @@ const Info = () => {
 
                 <h4>Periódicamente las maestras reciben capacitaciones para fortalecer sus conocimientos y habilidades .</h4>
                 <div>
-                    <img  src={ImgCapacitacion} alt=""/>           
+                    <img className = "pict"  src={ImgCapacitacion} alt=""/>           
 
                 </div>
             </div>
