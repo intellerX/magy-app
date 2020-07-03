@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import '../assets/styles/components/Services.scss';
 import ImgServicios from '../assets/static/ImagenServicios.jpg'
+import ImgComida from '../assets/static/Comida.jpg'
 const Services = () => {
 	return (
 		<div className = "Services">		
@@ -58,7 +59,7 @@ const Services = () => {
                 </div>
 
                 <div className = "panel2">
-                    <img className = "panel2__image" id="Image"   data-type="image"  src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                    <img className = "panel2__image" id="Image"   data-type="image"  src={ImgComida}></img>
 
                     
                 </div>
