@@ -13,6 +13,8 @@ import ImgInfo from "../assets/static/info.png";
 import ImgFood from "../assets/static/food.png";
 import ImgPuzzle from "../assets/static/puzzle.png";
 import ImgFotos from "../assets/static/fotos.png";
+import {Link} from 'react-router-dom';
+
 
 
 import '../assets/styles/App.scss';
@@ -31,29 +33,37 @@ const Home = ({ mylist, trends, originals }) => {
 			
 			<img className = "image1" id="Image1"   data-type="image"  src={Image1}></img>
 
-			<div className="icons__bar">
-				
-				<div className="contenedor" id="uno">
-					<img className="icon" src={ImgHome}/>
-				</div>
+			<div className="icons__bar">				
+				<Link to = {`/`}>
+					<div className="contenedor" id="uno">
+						<img className="icon" src={ImgHome}/>
+					</div>
+				</Link>
+				<Link to = {`/info`}>
 
-				<div className="contenedor" id="dos">
-					<img className="icon" src={ImgInfo}/>
-				</div>
-
-				<div className="contenedor" id="tres">
-					<img className="icon" src={ImgFood}/>
+					<div className="contenedor" id="dos">
+						<img className="icon" src={ImgInfo}/>
+					</div>
+				</Link>
+				<Link to = {`/servicios`}>
+					<div className="contenedor" id="tres">
+						<img className="icon" src={ImgFood}/>			
+					</div>
+				</Link>
+				<a href="https://www.psepagos.co/PSEHostingUI/ShowTicketOffice.aspx?ID=8807">
+					<div className="contenedor" id="cuatro">
+						<img className="icon" src={ImgPuzzle}/>
+					</div>
+				</a>
 					
-				</div>
 
-				<div className="contenedor" id="cuatro">
-					<img className="icon" src={ImgPuzzle}/>
-				</div>
-
-				<div className="contenedor" id="cinco">
-					<img className="icon" src={ImgFotos}/>
-				</div>			
-
+					
+				
+				<Link to = {`/info`}>
+					<div className="contenedor" id="cinco">
+						<img className="icon" src={ImgFotos}/>
+					</div>			
+				</Link>
 			</div>
 
 			<img className = "medalla" id="Medalla"   data-type="image"  src={Medalla}></img>
