@@ -50,7 +50,7 @@ const Services = () => {
 
             <div className = "panel__info"> 
                 <div className = "panel1"> 
-                    <h3>Servicio de lonchera</h3>           
+                    <h3>Servicio de Restaurante Escolar</h3>           
 
                     <p className = "parr">
                         Ofrecemos una lonchera balanceada: proteína acompañada de Carbohidrato, fruta y jugo natural.  

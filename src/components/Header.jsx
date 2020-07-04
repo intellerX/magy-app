@@ -26,18 +26,17 @@ const Header = props => {
   return(
     <header className="header">
       
-      <Link to='/'>
+      <Link to='/' className = "link_logo">
         <img className="header__img" src={logo} alt="Logo La Casita de Magy" />
-
       </Link>
       
       
       <ul id="button" className="buttons">
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/info">Sobre nosotros</a></li>
-        <li><a href="/servicios">Servicios</a></li>
-        <li><a href="https://www.psepagos.co/PSEHostingUI/ShowTicketOffice.aspx?ID=8807">Pagos</a></li>
-        <li><a href="/info">Contacto</a></li>
+        <a href="/">Inicio</a>
+        <a href="/info">Sobre nosotros</a>
+        <a href="/servicios">Servicios</a>
+        <a href="https://www.psepagos.co/PSEHostingUI/ShowTicketOffice.aspx?ID=8807">Pagos</a>
+        <a href="/info">Contacto</a>
       </ul>
       
       <div className="header__menu">

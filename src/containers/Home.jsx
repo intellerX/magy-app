@@ -5,7 +5,15 @@ import Categories from '../components/Categories';
 import Carousel from '../components/Carousel';
 import CarouselItem from '../components/CarouselItem';
 import '../assets/styles/components/Home.scss';
-import Image1 from '../assets/static/Image11.jpg'
+import Image1 from '../assets/static/Image11.jpg';
+import Medalla from '../assets/static/Medalla.png';
+
+import ImgHome from "../assets/static/home.png";
+import ImgInfo from "../assets/static/info.png";
+import ImgFood from "../assets/static/food.png";
+import ImgPuzzle from "../assets/static/puzzle.png";
+import ImgFotos from "../assets/static/fotos.png";
+
 
 import '../assets/styles/App.scss';
 
@@ -18,8 +26,37 @@ const Home = ({ mylist, trends, originals }) => {
 		<div className = "home">
 			
 			<h1 className = "title">La Casita de Magy</h1>
+
+			
 			
 			<img className = "image1" id="Image1"   data-type="image"  src={Image1}></img>
+
+			<div className="icons__bar">
+				
+				<div className="contenedor" id="uno">
+					<img className="icon" src={ImgHome}/>
+				</div>
+
+				<div className="contenedor" id="dos">
+					<img className="icon" src={ImgInfo}/>
+				</div>
+
+				<div className="contenedor" id="tres">
+					<img className="icon" src={ImgFood}/>
+					
+				</div>
+
+				<div className="contenedor" id="cuatro">
+					<img className="icon" src={ImgPuzzle}/>
+				</div>
+
+				<div className="contenedor" id="cinco">
+					<img className="icon" src={ImgFotos}/>
+				</div>			
+
+			</div>
+
+			<img className = "medalla" id="Medalla"   data-type="image"  src={Medalla}></img>
 
 			<div>
 				<h1 className= "title__2">La Misión de La Casita de Magy</h1>
@@ -30,7 +67,7 @@ const Home = ({ mylist, trends, originals }) => {
 				</p>
 			</div>
 
-			<Categories title='Publicaciones'>
+			<Categories title='El Método Montessori'>
 				<Carousel className = "carousel">
 					{trends.map((item) => (
 						<CarouselItem key={item.id} {...item}  />

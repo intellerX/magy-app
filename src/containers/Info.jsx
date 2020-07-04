@@ -28,7 +28,7 @@ const Info = () => {
 			<div className = "panel__info">
                 <div className = "panel1">
                     <h2 className= "title__2">Información de La Casita de Magy</h2>
-                    <h3>Educacion unica y valiosa</h3>
+                    <h3>Educación Inicial y Preescolar</h3>
                     <p >
                         jardín infantil con un ambiente Campestre en el centro de la ciudad de Cartago, Valle del Cauca. 
                     </p>
@@ -37,6 +37,9 @@ const Info = () => {
                     </p>
                     <p>
                         Teléfonos:  2130104 -313714 6414 -3174592868
+                    </p>
+                    <p>
+                        Correo: lacasitademagy@hotmail.com
                     </p>
                 </div>
 
@@ -81,7 +84,7 @@ const Info = () => {
             </div>
 
             <div className = "slider" id = "Democracia">
-                <h4>La democracia se aprende, por tal motivo es primordial que se enseñe desde la infancia en casa y en el jardin, la toma de decisiones  acertadas.</h4>
+                <h4>La democracia se aprende.  En la Casita de Magy la Eleccion del personero es una fiesta democrática donde se fomenta el valor de elegir y ser elegidos, la responsabilidad al entregar el voto y el compromiso de los candidatos con su programa de gobierno.</h4>
                 <ul>
                     <li><img src={ImgDemocracia} alt=""/></li>
                     <li><img src={ImgDemocracia2} alt=""/></li>

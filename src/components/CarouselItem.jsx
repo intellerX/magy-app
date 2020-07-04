@@ -9,7 +9,7 @@ import removeIcon from '../assets/static/remove-icon.png';
 import {Link} from 'react-router-dom';
 
 const CarouselItem = (props) => {  
-  const {id,cover , title , year , contentRating , duration , isList} = props;
+  const {id,cover , title , year , contentRating , duration , isList, description} = props;
   const handleSetFavorite = () => {
     props.setFavorite({
       id,cover,title,year,contentRating,duration
@@ -23,7 +23,12 @@ const CarouselItem = (props) => {
   return(
     <div className="carousel-item">
       <img className="carousel-item__img" src={cover} alt={title}  />
+
+
       <div className="carousel-item__details">
+        <p className="carousel-item__details--title">{title}</p>
+        <h4 className = "carousel-item__description">{description}</h4>
+
         <div>
           <Link to = {`/player/${id}`}>
             <img 
@@ -34,15 +39,12 @@ const CarouselItem = (props) => {
             />
           </Link>
           
-          <img
-            className="carousel-item__details--img"
-            src={plusIcon} alt="Plus Icon"            
-          /> 
+          
           
         </div>
-        <p className="carousel-item__details--title">{title}</p>
+        
         <p className="carousel-item__details--subtitle">
-          {`${year} ${contentRating} ${duration}`}
+          {`${year} `}
         </p>
       </div>
     </div>

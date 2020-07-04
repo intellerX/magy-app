@@ -15,22 +15,34 @@
 
 .buttons {
   padding: 0;
+  justify-content: space-between;
   align-items: center;
-}
-.buttons li {
   display: inline;
   padding: 5px ;
 }
-.buttons li a{
-  
-  font-size: 20px;
-  text-decoration: none;
+.buttons  a {
+  font-weight: bolder;
+  font-size: 26px;
   float: left;
-  padding: 10px;
+  padding: 8px;
   color: black;
+  text-decoration: none;
+  background-color: #ffffff;
+  height: 100%;
 
 }
 
+.buttons  :hover{
+ text-decoration: overline;
+ font-weight: 300;
+}
+
+
+#button a:hover {
+  background-color: #fce7e7;
+  margin-top: -2;
+  padding-bottom: 12px;
+  }
 
 .header__img {
   margin-left: 30px;
@@ -69,6 +81,7 @@
 }
 
 .header__menu--profile {
+  font-weight: bolder;
   align-items: center;
   display: flex;
   cursor: pointer;
@@ -80,4 +93,16 @@
   width: 40px;
   border-radius: 100%;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .header__img{
+    width: 90px;
+    margin-left: 0;
+    justify-content: left;
+  }
+
+  
+
 }
