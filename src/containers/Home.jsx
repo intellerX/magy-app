@@ -22,7 +22,8 @@ const Home = ({ mylist, trends, originals }) => {
 			<img className = "image1" id="Image1"   data-type="image"  src={Image1}></img>
 
 			<div>
-				<h1 className= "title__2">La misión de La Casita de Magy</h1>
+				<h1 className= "title__2">La Misión de La Casita de Magy</h1>
+				<p className = "par">Asumir un compromiso con los niños y familias, ofreciendo con afecto, responsabilidad y profesionalismo la máxima calidad en la educación infantil, apoyándose en el modelo de las inteligencias múltiples, en la pedagogía Montessori, en proyectos de ética ambiental, identidad colombiana y ética para la vida “ formación en valores” y en un equipo humano, sensible y talentoso, que garantiza el desarrollo de una variedad de experiencias innovadoras y significativas para llevar a nuestros niños a ser personas autónomas, líderes con la capacidad de influenciar positivamente su entorno.</p>
 				<h3>Propuesta pedagogica</h3>
 				<p className = "par">
 				nuestra propuesta pedagógica va más allá de encasillarnos en la educación tradicional. Nuestro proyecto, es una amalgama enriquecida con la pedagogía montessori y las inteligencias multiples. Es un instrumento que plasma nuestras intenciones educativas que van encaminadas a formar niños  independientes, líderes, preparados para enfrentar el mundo con más asertividad.
