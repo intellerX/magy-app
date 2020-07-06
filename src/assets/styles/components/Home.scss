@@ -41,53 +41,52 @@
   margin-bottom: 100px;
   display: flex;
 	width: 90%;
-	height:150px;
   background-color: rgb(255, 255, 255);
   justify-content: space-between;
+  align-items: center;
 }
 
 div.contenedor{
   margin-top: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
-	width: 200px;
-	height: 210px;
+	width: 90%;
+	height: 170%;
 	float:left;
 }
 
 div#uno{
+  margin-left: 10px;
   border-radius: 50px;
 	background-color: rgb(255, 246, 117);
 }
 
 div#dos{
+  margin-left: 10px;
   border-radius: 50px;
 	background-color: rgb(233,147,26);
 }
 
 div#tres{
+  margin-left: 10px;
   border-radius: 50px;
 	background-color: rgb(22,145,190);
 }
 
 div#cuatro{
+  margin-left: 10px;
   border-radius: 50px;
 	background-color: rgb(22,107,162);
 }
 
 div#cinco{
+  margin-left: 10px;
   border-radius: 50px;
 	background-color: rgb(27,54,71);
 }
 
-div#seis{
-  border-radius: 50px;
-	background-color: rgb(21,40,54);
-}
+
 
 img.icon{
   margin-top: 10px;
-
 	background-color: rgba(255,255,255,.15);
 	width:100%;
 	-webkit-border-radius: 50%;
