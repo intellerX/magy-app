@@ -54,33 +54,28 @@ div.contenedor{
 }
 
 div#uno{
-  margin-left: 10px;
   border-radius: 50px;
-	background-color: rgb(255, 246, 117);
+	background-color: rgb(196, 188, 80);
 }
 
 div#dos{
-  margin-left: 10px;
   border-radius: 50px;
 	background-color: rgb(233,147,26);
 }
 
 div#tres{
-  margin-left: 10px;
   border-radius: 50px;
 	background-color: rgb(22,145,190);
 }
 
 div#cuatro{
-  margin-left: 10px;
   border-radius: 50px;
 	background-color: rgb(22,107,162);
 }
 
 div#cinco{
-  margin-left: 10px;
   border-radius: 50px;
-	background-color: rgb(27,54,71);
+	background-color: rgb(66, 93, 110);
 }
 
 
@@ -94,9 +89,17 @@ img.icon{
 	-webkit-transition:box-shadow .4s;
 }
 
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: 1;
+}
 
 div.contenedor:hover p.texto{
-	opacity: 1;
+  opacity: 0.5;
+  color: rgb(255, 255, 255);
 }
 
 div.contenedor:hover img.icon{

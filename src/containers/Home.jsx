@@ -6,7 +6,7 @@ import Carousel from '../components/Carousel';
 import CarouselItem from '../components/CarouselItem';
 import '../assets/styles/components/Home.scss';
 import Image1 from '../assets/static/Image11.jpg';
-import Medalla from '../assets/static/Medalla.png';
+import Medalla from '../assets/static/Medalla.jpg';
 
 import ImgHome from "../assets/static/home.png";
 import ImgInfo from "../assets/static/info.png";
@@ -37,31 +37,33 @@ const Home = ({ mylist, trends, originals }) => {
 				<Link to = {`/`}>
 					<div className="contenedor" id="uno">
 						<img className="icon" src={ImgHome}/>
+						<p className="texto">Home</p>
 					</div>
 				</Link>
 				<Link to = {`/info`}>
 
 					<div className="contenedor" id="dos">
 						<img className="icon" src={ImgInfo}/>
+						<p className="texto">Información</p>
 					</div>
 				</Link>
 				<Link to = {`/servicios`}>
 					<div className="contenedor" id="tres">
-						<img className="icon" src={ImgFood}/>			
+						<img className="icon" src={ImgFood}/>	
+						<p className="texto">Servicios</p>		
 					</div>
 				</Link>
 				<a href="https://www.psepagos.co/PSEHostingUI/ShowTicketOffice.aspx?ID=8807">
 					<div className="contenedor" id="cuatro">
 						<img className="icon" src={ImgPuzzle}/>
+						<p className="texto">Pagos</p>
 					</div>
-				</a>
-					
-
-					
+				</a>				
 				
 				<Link to = {`/info`}>
 					<div className="contenedor" id="cinco">
 						<img className="icon" src={ImgFotos}/>
+						<p className="texto">Imágenes</p>
 					</div>			
 				</Link>
 			</div>

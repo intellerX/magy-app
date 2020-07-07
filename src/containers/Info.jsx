@@ -19,6 +19,12 @@ import ImgDemocracia4 from  '../assets/static/slider/Democracia 4.jpg';
 
 
 import ImgCapacitacion from '../assets/static/slider/Capacitacion.jpg';
+import ImgCapacitacion2 from '../assets/static/slider/Capacitacion2.jpg';
+import ImgCapacitacion3 from '../assets/static/slider/Capacitacion3.jpg';
+import ImgCapacitacion4 from '../assets/static/slider/Capacitacion4.jpg';
+
+
+
 
 const Info = () => {
 	return (
@@ -63,13 +69,15 @@ const Info = () => {
                 </ul>
             </div>
 
-            <div className = "pict" id = "Capacitacion">
+            <div className = "slider" id = "Capacitacion">
 
                 <h4>Periódicamente las maestras reciben capacitaciones para fortalecer sus conocimientos y habilidades .</h4>
-                <div>
-                    <img className = "pict"  src={ImgCapacitacion} alt=""/>           
-
-                </div>
+                <ul>
+                    <li><img src={ImgCapacitacion} alt=""/></li>
+                    <li><img src={ImgCapacitacion2} alt=""/></li>
+                    <li><img src={ImgCapacitacion3} alt=""/></li>
+                    <li><img src={ImgCapacitacion4} alt=""/></li>
+                </ul>
             </div>
 
             <div className = "slider" id = "Prevencion">
@@ -94,25 +102,7 @@ const Info = () => {
                 </ul>
             </div>
 
-            <div className = "slider" id = "5">
-                <ul>
-                    <li><img src="" alt=""/></li>
-                    <li><img src="" alt=""/></li>
-                    <li><img src="" alt=""/></li>
-                    <li><img src="" alt=""/></li>
-
-                </ul>
-            </div>
-
-            <div className = "slider" id = "6">
-                <ul>
-                    <li><img src="" alt=""/></li>
-                    <li><img src="" alt=""/></li>
-                    <li><img src="" alt=""/></li>
-                    <li><img src="" alt=""/></li>
-
-                </ul>
-            </div>
+            
             
         
         </div>
