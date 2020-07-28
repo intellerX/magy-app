@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import '../assets/styles/components/Header.scss';
+import {connect} from 'react-redux';
+import PropTypes from 'prop-types';
 import logo from '../assets/static/Logo.png';
 import userIcon from '../assets/static/sonajero.png';
-import {connect} from 'react-redux';
 import gravatar from '../utils/gravatar.js';
 import {logoutRequest} from '../actions';
-import PropTypes from 'prop-types';
 
 const Header = props => {
 
@@ -26,7 +26,7 @@ const Header = props => {
   return(
     <header className="header">
       
-      <Link to='/' className = "link_logo">
+      <Link to='/' className="link_logo">
         <img className="header__img" src={logo} alt="Logo La Casita de Magy" />
       </Link>
       
@@ -36,24 +36,24 @@ const Header = props => {
         <a href="/info">Sobre nosotros</a>
         <a href="/servicios">Servicios</a>
         <a href="https://www.psepagos.co/PSEHostingUI/ShowTicketOffice.aspx?ID=8807">Pagos</a>
-        <a href="/info">Contacto</a>
+        <a href="/notices">Noticias</a>
       </ul>
       
       <div className="header__menu">
         <div className="header__menu--profile">
           {hasUser ?
-            (<img src={gravatar(user.email)} alt={user.email}/>):
+            (<img src={gravatar(user.email)} alt={user.email} />):
             (<img src={userIcon} alt="Perfil" />)
           }
           <p>Perfil</p>
         </div>
         <ul>
           {hasUser ?
-              <li><a href="/">{user.name}</a></li>:
+            <li><a href="/">{user.name}</a></li>:
               null
           }
           {hasUser ?
-            <li><a href="/logout" onClick = {handleLogout}>Cerrar Sesión</a></li>:
+            <li><a href="/logout" onClick={handleLogout}>Cerrar Sesión</a></li>:
             <li><a href="/login">Iniciar Sesión</a></li>
           }
         </ul>
