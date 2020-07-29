@@ -104,7 +104,7 @@ const initialState = {
       'title': 'Regreso a clases',
       'cover': 'https://i9.ytimg.com/vi/66fWJNJQKMY/mqdefault.jpg?time=1595817106800&sqp=CKj4-PgF&rs=AOn4CLAIIWsKY4TeuDKj-uSK0biXo24eOA',
       'description': 'Prepárate este 10 de agosto para el regreso a clases en La Casita de Magy.',
-      'source': 'https://www.youtube.com/embed/66fWJNJQKMY?autoplay=1;?rel=0',
+      'source': 'https://www.youtube.com/embed/66fWJNJQKMY?rel=0',
     },
     {
       'id': 2,
