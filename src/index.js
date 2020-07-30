@@ -104,14 +104,14 @@ const initialState = {
       'title': 'Regreso a clases',
       'cover': 'https://i9.ytimg.com/vi/66fWJNJQKMY/mqdefault.jpg?time=1595817106800&sqp=CKj4-PgF&rs=AOn4CLAIIWsKY4TeuDKj-uSK0biXo24eOA',
       'description': 'Prepárate este 10 de agosto para el regreso a clases en La Casita de Magy.',
-      'source': 'https://www.youtube.com/embed/66fWJNJQKMY?autoplay=1',
+      'source': 'https://www.youtube.com/embed/66fWJNJQKMY?autoplay=1;?rel=0',
     },
     {
       'id': 2,
       'title': 'Una tarde en La Casita de Magy',
       'cover': 'https://i9.ytimg.com/vi/66fWJNJQKMY/mqdefault.jpg?time=1595817106800&sqp=CKj4-PgF&rs=AOn4CLAIIWsKY4TeuDKj-uSK0biXo24eOA',
       'description': 'Un atardecer en casita de Magy. Pronto saldrá el sol y nos volveremos a encontrar.',
-      'source': 'https://www.youtube.com/embed/jOWQBeI207Y',
+      'source': 'https://www.youtube.com/embed/jOWQBeI207Y?rel=0',
     },
 
   ],
