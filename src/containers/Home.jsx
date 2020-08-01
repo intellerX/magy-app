@@ -17,8 +17,7 @@ import ImgFotos from '../assets/static/fotos.png';
 
 import '../assets/styles/App.scss';
 
-
-const Home = ({  trends  }) => {
+const Home = ({ trends }) => {
   // const initialState = useInitialState(API);
   return (
     <div className='home'>
@@ -54,7 +53,7 @@ const Home = ({  trends  }) => {
           </div>
         </a>
 
-        <Link to='/info'>
+        <Link to='/galeria'>
           <div className='contenedor' id='cinco'>
             <img className='icon' src={ImgFotos} alt='fotos' />
             <p className='texto'>Imágenes</p>

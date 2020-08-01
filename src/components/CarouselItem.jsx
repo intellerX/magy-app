@@ -27,7 +27,7 @@ const CarouselItem = (props) => {
         <h4 className='carousel-item__description'>{description}</h4>
 
         <div>
-          <Link to={`/player/${id}`}>
+          <Link to='/galeria'>
             <img
               className='carousel-item__details--img'
               src={playIcon}

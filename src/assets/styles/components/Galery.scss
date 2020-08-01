@@ -1,0 +1,17 @@
+#galeria {
+    margin: 1rem auto;
+    width:100%;
+    max-width:960px;
+    column-count: 3;
+}
+
+.galeria--item{
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+.galeria--img{
+    width: 100%;
+}

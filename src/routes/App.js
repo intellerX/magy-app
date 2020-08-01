@@ -9,6 +9,7 @@ import Player from '../containers/Player';
 import Info from '../containers/Info';
 import Services from '../containers/Services';
 import Notices from '../containers/Notices';
+import Galery from '../containers/Galery';
 
 const App = () => (
   <BrowserRouter>
@@ -22,6 +23,7 @@ const App = () => (
         <Route exact path='/info' component={Info} />
         <Route exact path='/servicios' component={Services} />
         <Route exact path='/notices' component={Notices} />
+        <Route exact path='/galeria' component={Galery} />
 
         <Route component={NotFound} />
       </Switch>
