@@ -138,6 +138,13 @@ const initialState = {
       'description': 'Un atardecer en casita de Magy. Pronto saldrá el sol y nos volveremos a encontrar.',
       'source': 'https://www.youtube.com/embed/jOWQBeI207Y?rel=0',
     },
+    {
+      'id': 3,
+      'title': 'Que opinan los papas del inicio de clases?',
+      'cover': 'https://i9.ytimg.com/vi/66fWJNJQKMY/mqdefault.jpg?time=1595817106800&sqp=CKj4-PgF&rs=AOn4CLAIIWsKY4TeuDKj-uSK0biXo24eOA',
+      'description': 'Conoce la opinión de los padres acerca del inicio de clases.',
+      'source': 'https://youtu.be/yAgjPDA_ris?rel=0',
+    },
   ],
   'galery': [
     {
