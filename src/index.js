@@ -129,7 +129,7 @@ const initialState = {
       'title': 'Regreso a clases',
       'cover': 'https://i9.ytimg.com/vi/66fWJNJQKMY/mqdefault.jpg?time=1595817106800&sqp=CKj4-PgF&rs=AOn4CLAIIWsKY4TeuDKj-uSK0biXo24eOA',
       'description': 'Prepárate este 10 de agosto para el regreso a clases en La Casita de Magy.',
-      'source': 'https://www.youtube.com/embed/66fWJNJQKMY?rel=0',
+      'source': 'https://www.youtube.com/embed/1PsqmIgUaDg?rel=0',
     },
     {
       'id': 2,
@@ -143,7 +143,7 @@ const initialState = {
       'title': 'Que opinan los papas del inicio de clases?',
       'cover': 'https://i9.ytimg.com/vi/66fWJNJQKMY/mqdefault.jpg?time=1595817106800&sqp=CKj4-PgF&rs=AOn4CLAIIWsKY4TeuDKj-uSK0biXo24eOA',
       'description': 'Conoce la opinión de los padres acerca del inicio de clases.',
-      'source': 'https://youtu.be/yAgjPDA_ris?rel=0',
+      'source': 'https://www.youtube.com/embed/yAgjPDA_ris?rel=0',
     },
   ],
   'galery': [
