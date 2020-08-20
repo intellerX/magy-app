@@ -11,7 +11,7 @@ const Notices = ({ notices }) => {
       <CarouselVertical className='carousel'>
         {notices.map(item => (
           <VerticalItem key={item.id} {...item} />
-        ))}
+        )).reverse()}
       </CarouselVertical>
     </Categories>
   );

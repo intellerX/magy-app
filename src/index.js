@@ -127,23 +127,30 @@ const initialState = {
     {
       'id': 1,
       'title': 'Regreso a clases',
-      'cover': 'https://i9.ytimg.com/vi/66fWJNJQKMY/mqdefault.jpg?time=1595817106800&sqp=CKj4-PgF&rs=AOn4CLAIIWsKY4TeuDKj-uSK0biXo24eOA',
+      'cover': '',
       'description': 'Prepárate este 10 de agosto para el regreso a clases en La Casita de Magy.',
       'source': 'https://www.youtube.com/embed/1PsqmIgUaDg?rel=0',
     },
     {
       'id': 2,
       'title': 'Una tarde en La Casita de Magy',
-      'cover': 'https://i9.ytimg.com/vi/66fWJNJQKMY/mqdefault.jpg?time=1595817106800&sqp=CKj4-PgF&rs=AOn4CLAIIWsKY4TeuDKj-uSK0biXo24eOA',
+      'cover': '',
       'description': 'Un atardecer en casita de Magy. Pronto saldrá el sol y nos volveremos a encontrar.',
       'source': 'https://www.youtube.com/embed/GXrB6MYb41E?rel=0',
     },
     {
       'id': 3,
       'title': 'Que opinan los papas del inicio de clases?',
-      'cover': 'https://i9.ytimg.com/vi/66fWJNJQKMY/mqdefault.jpg?time=1595817106800&sqp=CKj4-PgF&rs=AOn4CLAIIWsKY4TeuDKj-uSK0biXo24eOA',
+      'cover': '',
       'description': 'Conoce la opinión de los padres acerca del inicio de clases.',
       'source': 'https://www.youtube.com/embed/yAgjPDA_ris?rel=0',
+    },
+    {
+      'id': 4,
+      'title': 'Esto piensan familias y exalumnos de La Casita de Magy',
+      'cover': '',
+      'description': 'La familia de Juan Mateo nos habla acerca de su paso por el Jardín.',
+      'source': 'https://www.youtube.com/embed/0_MDkjyfZXg?rel=0',
     },
   ],
   'galery': [
