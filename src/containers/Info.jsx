@@ -51,8 +51,9 @@ const Info = () => {
       </div>
 
       <div className='slider' id='Arte'>
+        <br />
         <h4>El arte juega un papel muy importante en el desarrollo de los niños. Razon por la que generamos espacios artisticos que desarrollen la percepción, motricidad, concentración, expresión, creatividad, comunicación e interaccion social.</h4>
-
+        <br />
         <ul>
           <li><img src={ImgArte} alt='' /></li>
           <li><img src={ImgArte2} alt='' /></li>
@@ -65,6 +66,7 @@ const Info = () => {
       <div className='slider' id='Capacitacion'>
 
         <h4>Periódicamente las maestras reciben capacitaciones para fortalecer sus conocimientos y habilidades .</h4>
+        <br />
         <ul>
           <li><img src={ImgCapacitacion} alt='' /></li>
           <li><img src={ImgCapacitacion2} alt='' /></li>
@@ -75,6 +77,7 @@ const Info = () => {
 
       <div className='slider' id='Prevencion'>
         <h4>Es importante para las familias tener la tranquilidad que sus hijos están seguros en el jardín. Por tal motivo anualmente se desarrolla con los niños el proyecto de prevención y desastres para estar preparados en caso de una emergencia.</h4>
+        <br />
         <ul>
           <li><img src={ImgPrevencion} alt='' /></li>
           <li><img src={ImgPrevencion2} alt='' /></li>
@@ -86,6 +89,7 @@ const Info = () => {
 
       <div className='slider' id='Democracia'>
         <h4>La democracia se aprende.  En la Casita de Magy la Eleccion del personero es una fiesta democrática donde se fomenta el valor de elegir y ser elegidos, la responsabilidad al entregar el voto y el compromiso de los candidatos con su programa de gobierno.</h4>
+        <br />
         <ul>
           <li><img src={ImgDemocracia} alt='' /></li>
           <li><img src={ImgDemocracia2} alt='' /></li>

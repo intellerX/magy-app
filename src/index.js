@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Redux
 import { Provider } from 'react-redux';
 import { createStore, compose } from 'redux';

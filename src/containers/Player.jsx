@@ -1,52 +1,48 @@
-import React,{useEffect,useState} from 'react';
-import {connect} from 'react-redux';
+import React, { useEffect, useState } from 'react';
+import { connect } from 'react-redux';
 import '../assets/styles/components/Player.scss';
-import {getVideoSource} from '../actions';
-import NotFound from "./NotFound";
+import { getVideoSource } from '../actions';
+import NotFound from './NotFound';
 
+const Player = (props) => {
 
-const Player = props => {
+  const { id } = props.match.params;
+  const [loading, setLoading] = useState(true);
+  const hasPlaying = Object.keys(props.playing).length > 0;
 
-    const { id } = props.match.params;
-    const [ loading, setLoading ] = useState(true);
-    const hasPlaying = Object.keys(props.playing).length > 0;
-    
+  useEffect(() => {
+    props.getVideoSource(id);
+    setLoading(false);
+  }, []);
 
-    useEffect(() => {
-        props.getVideoSource(id);
-        setLoading(false);
-    }, []); 
+  if (loading) return <h2>Cargando video...</h2>;
 
-    if (loading) return <h2>Cargando video...</h2>
+  console.log(props.playing.id);
 
-    console.log(props.playing.id);
-    
-
-    return hasPlaying ? (
-      <div className="Player">
-        <iframe
-          title="player"
-          src={props.playing.source}
-        />
-        <div className="Player-back">
-          <button type="button" onClick={() => props.history.goBack()}>
-            Regresar
-          </button>
-        </div>
+  return hasPlaying ? (
+    <div className='Player'>
+      <iframe
+        title='player'
+        src={props.playing.source}
+      />
+      <div className='Player-back'>
+        <button type='button' onClick={() => props.history.goBack()}>
+          Regresar
+        </button>
       </div>
-    )
-    :
-      <NotFound />
+    </div>
+  ) :
+    <NotFound />;
 };
 
-const mapStateToProps = state => {
-    return {
-        playing: state.playing,
-    }
+const mapStateToProps = (state) => {
+  return {
+    playing: state.playing,
+  };
 };
 
 const mapDispatchToProps = {
-    getVideoSource,
-}
+  getVideoSource,
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(Player);
