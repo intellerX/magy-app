@@ -25,12 +25,7 @@ const LoginProfe = (props) => {
     event.preventDefault();
     try {
 
-      axios.get('https://bookbasket1.herokuapp.com/api/books/', {
-      }).then((response) => {
-        console.log(response.data);
-        window.location.href = '/inicio';
-
-      });
+      window.location.href = '/grupos';
 
     } catch (err) {
       console.log(err);

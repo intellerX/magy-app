@@ -80,7 +80,7 @@ const Inicio = ({ originals }) => {
               <Card.Title>Jardin</Card.Title>
               <Card.Subtitle className='mb-2 text-muted'>Nombre profe</Card.Subtitle>
               <br />
-              <Card.Link href='/addsaldo'>Aula Virtual</Card.Link>
+              <Card.Link href='https://classroom.google.com/u/0/c/MTk2NDc3NjQzODgz'>Aula Virtual</Card.Link>
 
               <Card.Link href='/tarjetas'>Información</Card.Link>
             </Card.Body>

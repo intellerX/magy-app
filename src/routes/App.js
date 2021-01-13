@@ -15,6 +15,9 @@ import Admin from '../containers/Admin';
 import Inicio from '../containers/Inicio';
 import Profe from '../containers/Profe';
 import Perfil from '../containers/Perfil';
+import PerfilProfe from '../containers/PerfilProfe';
+import Estudiantes from '../containers/Estudiantes';
+import Grupos from '../containers/Grupos';
 
 const App = () => (
   <BrowserRouter>
@@ -26,7 +29,7 @@ const App = () => (
         <Route exact path='/loginprofe' component={LoginProfe} />
 
         <Route exact path='/register' component={Register} />
-        <Route exact path='/player/:id' component={Player} />
+        <Route exact path='/estudiantes/:id' component={Estudiantes} />
         <Route exact path='/info' component={Info} />
         <Route exact path='/servicios' component={Services} />
         <Route exact path='/notices' component={Notices} />
@@ -35,6 +38,8 @@ const App = () => (
         <Route exact path='/inicio' component={Inicio} />
         <Route exact path='/profe' component={Profe} />
         <Route exact path='/perfil' component={Perfil} />
+        <Route exact path='/perfilprofe' component={PerfilProfe} />
+        <Route exact path='/grupos' component={Grupos} />
 
 
         <Route component={NotFound} />

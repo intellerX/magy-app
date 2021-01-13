@@ -97,9 +97,8 @@ const Perfil = ({ originals }) => {
                 Fecha de Nacimiento: 20-2-2018
               </Card.Text>
               <br />
-              <Card.Link href='/addsaldo'>Aula Virtual</Card.Link>
+              <Card.Link href='/none'>Editar</Card.Link>
 
-              <Card.Link href='/tarjetas'>Información</Card.Link>
             </Card.Body>
           </Card>
         </Row>

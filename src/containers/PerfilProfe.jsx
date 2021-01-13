@@ -6,7 +6,7 @@ import { Nav, NavDropdown, Navbar, Row, Card } from 'react-bootstrap';
 
 import '../assets/styles/components/Search.scss';
 
-const Admin = ({ originals }) => {
+const PerfilProfe = ({ originals }) => {
 
   const [form, setValues] = useState({
     search: [],
@@ -54,33 +54,38 @@ const Admin = ({ originals }) => {
       <Navbar bg='dark' variant='dark'>
         <Nav variant='pills' activeKey='1'>
           <Nav.Item>
-            <Nav.Link eventKey='1' href='/administrador'>
+            <Nav.Link eventKey='1' href='/grupos'>
               📚Grupos
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey='3' href='/perfil'>
+            <Nav.Link eventKey='3' href='/perfilprofe'>
               Perfil
             </Nav.Link>
           </Nav.Item>
         </Nav>
       </Navbar>
 
-      <section className='main'>
-        <h2 className='main__title2'>Gupos</h2>
-        <Row className='justify-content-md-center' style={{ width: '90%' }}>
+      <section className='main' style={{ marginTop: '90px' }}>
+        <h2 className='main__title2'>Perfil de Profe</h2>
+        <Row className='justify-content-md-center' style={{ width: '100%' }}>
 
           <Card style={{ width: '90%', margin: '20px', justifyContent: 'center' }}>
             <Card.Body>
-              <Card.Title>Caminadores A</Card.Title>
-              <Card.Subtitle className='mb-2 text-muted'>HRD315</Card.Subtitle>
+              <Card.Title>Nombre Profe</Card.Title>
               <Card.Text>
-                Informacion del Grupo
+                Celular: 311111111
+                <br />
+                email: correo@gmail.com
+                <br />
+                cc: 1123132
+                <br />
+                Fecha de Nacimiento: 20-2-2018
               </Card.Text>
               <br />
-              <Card.Link href='/inicio'>Aula Virtual</Card.Link>
+              <Card.Link href='https://classroom.google.com/u/0/c/MTk2NDc3NjQzODgz'>Aula Virtual mxaaavq</Card.Link>
 
-              <Card.Link href='/estudiantes/1'>Ver Alumnos</Card.Link>
+              <Card.Link href='/tarjetas'>Información</Card.Link>
             </Card.Body>
           </Card>
         </Row>
@@ -97,4 +102,4 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect(mapStateToProps, null)(Admin);
+export default connect(mapStateToProps, null)(PerfilProfe);

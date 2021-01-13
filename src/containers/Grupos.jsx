@@ -54,12 +54,12 @@ const Admin = ({ originals }) => {
       <Navbar bg='dark' variant='dark'>
         <Nav variant='pills' activeKey='1'>
           <Nav.Item>
-            <Nav.Link eventKey='1' href='/administrador'>
+            <Nav.Link eventKey='1' href='/grupos'>
               📚Grupos
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey='3' href='/perfil'>
+            <Nav.Link eventKey='3' href='/perfilprofe'>
               Perfil
             </Nav.Link>
           </Nav.Item>
@@ -67,7 +67,7 @@ const Admin = ({ originals }) => {
       </Navbar>
 
       <section className='main'>
-        <h2 className='main__title2'>Gupos</h2>
+        <h2 className='main__title2'>Gupos Asignados</h2>
         <Row className='justify-content-md-center' style={{ width: '90%' }}>
 
           <Card style={{ width: '90%', margin: '20px', justifyContent: 'center' }}>
@@ -78,7 +78,8 @@ const Admin = ({ originals }) => {
                 Informacion del Grupo
               </Card.Text>
               <br />
-              <Card.Link href='/inicio'>Aula Virtual</Card.Link>
+              <Card.Link href='https://classroom.google.com/u/0/c/MTk2NDc3NjQzODgz'>Aula Virtual mxaaavq</Card.Link>
+
 
               <Card.Link href='/estudiantes/1'>Ver Alumnos</Card.Link>
             </Card.Body>
