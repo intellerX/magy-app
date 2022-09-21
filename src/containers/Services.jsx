@@ -30,7 +30,7 @@ const Services = () => {
 
           <h4>No dudes en contactarnos para matricular a tu hij@.</h4>
 
-          <p>Teléfonos:  2130104 -313714 6414 -3174592868</p>
+          <p>Teléfonos:  313714 6414 -3174592868</p>
 
         </div>
 
