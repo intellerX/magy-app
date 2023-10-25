@@ -34,7 +34,7 @@ const Header = (props) => {
         <a href='/'>Inicio</a>
         <a href='/info'>Sobre nosotros</a>
         <a href='/servicios'>Servicios</a>
-        <a href='https://www.psepagos.co/PSEHostingUI/ShowTicketOffice.aspx?ID=8807'>Pagos</a>
+        <a href='/servicios'>Pagos</a>
         <a href='/notices'>Noticias</a>
       </ul>
 
