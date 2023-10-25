@@ -46,7 +46,7 @@ const Home = ({ trends }) => {
             <p className='texto'>Servicios</p>
           </div>
         </Link>
-        <a href=''>
+        <a href='/servicios'>
           <div className='contenedor' id='cuatro'>
             <img className='icon' src={ImgPuzzle} alt='puzzle' />
             <p className='texto'>Pagos</p>
